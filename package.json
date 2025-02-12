@@ -1,12 +1,12 @@
 {
   "name": "etl",
-  "version": "0.8.0",
-  "description": "Collection of stream-based components that form an ETL pipeline",
+  "version": "0.8.1",
+  "description": "Collection of stream-based components that form an ETL pipeline - Patched Version",
   "main": "index.js",
   "author": "Ziggy Jonsson (http://github.com/zjonsson/)",
   "repository": {
     "type": "git",
-    "url": "http://github.com/ZJONSSON/node-etl"
+    "url": "http://github.com/drowl87/node-etl"
   },
   "scripts": {
     "test": "docker compose up -d --no-recreate --quiet-pull;docker exec node-etl-runner-1 bash ./test.sh",
@@ -14,12 +14,16 @@
   },
   "license": "MIT",
   "dependencies": {
-    "bluebird": "~3.5.0",
-    "csv-parser": "~1.8.0",
-    "duplexer3": "^0.1.4",
-    "moment": "~2.29.4",
-    "streamz": "~1.8.10"
+    "bluebird": "^3.7.2",
+    "csv-parser": "^3.2.0",
+    "duplexer3": "^1.0.0",
+    "moment": "^2.30.1",
+    "streamz": "~1.8.12"
   },
+  "contributors": [
+    "Ziggy Johnson",
+    "David Rowley"
+  ],
   "devDependencies": {
     "@elastic/elasticsearch": "^8.11.0",
     "mongodb": "^6.3.0",
