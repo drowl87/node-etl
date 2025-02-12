@@ -1,5 +1,5 @@
 {
-  "name": "etl",
+  "name": "@drowl87/etl",
   "version": "0.8.1",
   "description": "Collection of stream-based components that form an ETL pipeline - Patched Version",
   "main": "index.js",
